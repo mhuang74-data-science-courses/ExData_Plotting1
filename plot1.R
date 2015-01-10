@@ -21,7 +21,7 @@ p <- histogram(~ energy$Global_active_power,
                xlab = "Global Active Power (kilowatts)",
                ylab = "Frequency",
                col = "red",
-               xlim = c(0,6),
+               xlim = c(0,8),
                ylim = c(0, 1300),
                breaks = seq(0, 8, .5),
                

@@ -5,7 +5,7 @@
 ##################################################################
 
 # Read in household energy dataset, reduced for 2007-02-01 and 2007-02-02
-energy <- read.csv("../assignment1_data.txt", sep = ";")
+energy <- read.csv("assignment1_data.txt", sep = ";")
 # convert into Posix Datetime 
 energy$Datetime <- as.POSIXct(strptime(paste(energy$Date, energy$Time, sep = " "), "%d/%m/%Y %H:%M:%S"))
 # add Date of Week

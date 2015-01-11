@@ -5,7 +5,7 @@
 ##################################################################
 
 # Read in household energy dataset, reduced for 2007-02-01 and 2007-02-02
-energy <- read.csv("../assignment1_data.txt", sep = ";")
+energy <- read.csv("assignment1_data.txt", sep = ";")
 
 # init png device
 png(filename = "plot1.png",

@@ -1,5 +1,3 @@
-library(lattice)
-
 ##################################################################
 # Assignment 1 - Plot 1 - Density (Count) of Global Active Power 
 #  Date range: Limited to 2007-02-01 and 2007-02-02 only

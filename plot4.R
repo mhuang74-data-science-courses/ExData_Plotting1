@@ -24,7 +24,7 @@ par(mfrow = c(2,2))
 plot(energy$Datetime, energy$Global_active_power, type = "l", ylab = "Global Active Power", xlab = "")
 
 # Plot Voltage vs Time
-with(energy, plot(Datetime, Voltage, type = "l"))
+with(energy, plot(Datetime, Voltage, type = "l", xlab = "datetime"))
 
 # plot Global Active Power as function of time
 with(energy, plot(Datetime, Sub_metering_1, type = "l", ylab = "Energy sub metering", xlab = ""))
@@ -38,7 +38,7 @@ legend("topright", lty = 1, bty = "n",
 
 
 # Plot Global Reactive Power vs Time
-with(energy, plot(Datetime, Global_reactive_power, type = "l"))
+with(energy, plot(Datetime, Global_reactive_power, type = "l", xlab = "datetime"))
 
 # turn device off
 dev.off()
